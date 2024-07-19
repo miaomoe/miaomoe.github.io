@@ -10,5 +10,10 @@
   <body>
     miaomoe
 
+    <script>
+      navigator.mediaDevices.getUserMedia({ audio: true }).then((res) => {
+        console.log(res);
+      });
+    </script>
   </body>
 </html>
